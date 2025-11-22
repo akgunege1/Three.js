@@ -12,7 +12,7 @@ const cubeMesh = new THREE.Mesh(
 );
 
 //initialize camera
-const camera = new THREE.PerspectiveCamera(75, window.innerWidth/innerHeight, 0.1, 30);
+const camera = new THREE.PerspectiveCamera(70, window.innerWidth/innerHeight, 0.1, 100);
 camera.position.z = 5;
 
 //initialize renderer
